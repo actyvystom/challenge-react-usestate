@@ -4,8 +4,8 @@ import ShoppingCart from "./components/ShoppingCart";
 function App() {
   return (
     <>
-      {/* <ActiveToggle /> */}
-      {/* <ShoppingCart /> */}
+      <ActiveToggle />
+      <ShoppingCart />
     </>
   );
 }
