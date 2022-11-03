@@ -1,12 +1,6 @@
 import "./ActiveToggle.css";
-import { useState } from "react";
 
-function ActiveToggle() {
-  const [active, setActive] = useState(false);
-
-  const toggleActive = () => {
-    setActive(!active);
-  };
+function ActiveToggle({ active, toggleActive }) {
   return (
     <main>
       <div className={active ? "box box--active" : "box"} />
